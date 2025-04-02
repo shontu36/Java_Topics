@@ -22,8 +22,8 @@ public class Client {
 
         GameController gameController = new GameController();
 
-        Player player1 = new HumanPlayer("Akash" , PlayerType.HUMAN , new Symbol('X'));
-        Player player2 = new Bot("Botty", BotDifficultyLevel.EASY);
+        Player player1 = new HumanPlayer("Shazi" , PlayerType.HUMAN , new Symbol('X'));
+        Player player2 = new Bot("Shonto", BotDifficultyLevel.EASY);
 
 
         Game game = gameController.startGame(
